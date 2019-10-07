@@ -28,7 +28,7 @@ public class AddTwoValuesTests {
         assertEquals("-10 + -5 must be -15", -15, calc.add(-10, -5));
     }
     @Test
-    public void testmultyplyValues() { assertEquals("11 * 7 must be 77", 77, calc.multiply(11, 7)); }
+    public void testmultyplyValues() { assertEquals("1* 7 must be 7", 7, calc.multiply(1, 7)); }
 
     //TODO
     //add tests for new methods
